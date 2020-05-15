@@ -21,7 +21,7 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 
-console.log("test");
+
 
 const displayNames = [];
 zooAnimals.forEach(
@@ -58,6 +58,9 @@ The zoos are concerned about animals with a lower population count. Using filter
 
 */
 const lowPopulationAnimals = [];
+
+
+
 console.log(lowPopulationAnimals);
 
 /* Request 4: .reduce() 
