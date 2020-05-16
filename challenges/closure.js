@@ -18,7 +18,7 @@ myFunction();
 
 // Explanation: 
 /*
-There are two reasons nestedFunction() can access internal. The first is simply the scope explanation. As functions can look outward, but not inward, nestedFunction() is able to access the variables of myFunction (which it is inside). Thus, the internal variable is within the scope of nestedFunction().
+There are two reasons nestedFunction() can access internal. The first is simply that internal is within nestedFunction()'s scope. As functions can look outward, but not inward, nestedFunction() is able to access the variables of myFunction (which it is inside). Thus, the 'internal' variable is within the scope of nestedFunction().
 
 The second is that, as a closure, nestedFunction stores a list of its original scope. So, as nestedFunction() can access/see internal when it is created, it an also access/use internal when called later.
 
